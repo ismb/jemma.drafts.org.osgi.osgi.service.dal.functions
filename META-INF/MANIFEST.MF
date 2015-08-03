@@ -1,20 +1,21 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1438077342319
+Bnd-LastModified: 1438608663827
 Build-Jdk: 1.8.0_45
 Built-By: tomasi
+Bundle-Category: JEMMA DAL
 Bundle-ManifestVersion: 2
 Bundle-Name: Dal Base Functions (draft)
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-SymbolicName: jemma.drafts.org.osgi.osgi.service.dal.functions;si
  ngleton:=true
 Bundle-Vendor: ISMB
-Bundle-Version: 1.0.1
+Bundle-Version: 1.0.2
 Created-By: Apache Maven Bundle Plugin
 Export-Package: org.osgi.service.dal.functions;uses:="org.osgi.service.d
- al,org.osgi.service.dal.functions.data";version="1.0.1",org.osgi.servic
- e.dal.functions.data;uses:="org.osgi.service.dal";version="1.0.1"
-Import-Package: org.osgi.service.dal;version="[1.0.1,2)",org.osgi.framew
- ork;version="[1.5,2)",org.osgi.service.event;version="[1.2,2)",org.slf4
- j;version="[1.6,2)"
+ al,org.osgi.service.dal.functions.data";version="1.0.2",org.osgi.servic
+ e.dal.functions.data;uses:="org.osgi.service.dal";version="1.0.2"
+Import-Package: org.osgi.service.dal;version="[1.0.1,2)",org.osgi.servic
+ e.event;version="[1.2,2)",org.slf4j;version="[1.6,2)",org.osgi.framewor
+ k;version="[1.5,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
 Tool: Bnd-2.3.0.201405100607

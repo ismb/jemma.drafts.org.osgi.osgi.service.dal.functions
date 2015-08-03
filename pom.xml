@@ -8,7 +8,7 @@
 	<groupId>org.energy-home</groupId>
 	<artifactId>jemma.drafts.org.osgi.osgi.service.dal.functions</artifactId>
 	<packaging>bundle</packaging>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<name>Dal Base Functions (draft)</name>
 	
 	<properties>
@@ -71,6 +71,7 @@
 						<Export-Package>org.osgi.service.dal.functions,
 							org.osgi.service.dal.functions.data
 						</Export-Package>
+						<Bundle-Category>JEMMA DAL</Bundle-Category>
 					</instructions>
 				</configuration>
 			</plugin>

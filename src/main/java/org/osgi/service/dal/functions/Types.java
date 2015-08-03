@@ -22,5 +22,5 @@ public interface Types {
 	static final String TYPE_MOTION = "motion";
 	static final String TYPE_HEAT = "heat";
 	static final String TYPE_COLD = "cold";
-	
+
 }
